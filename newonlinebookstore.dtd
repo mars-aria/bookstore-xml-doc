@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- file name: newonlinebookstore.dtd -->
+
+<!ELEMENT newonlinebookstore (book)+>
+<!ELEMENT book (title,author+,year,price,format,publisher,pagelength, series,seriesno)>
+<!ATTLIST book category CDATA "THRILLER">
+<!ELEMENT title (#PCDATA)>
+<!ATTLIST title lang CDATA "en">
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT format (#PCDATA)>
+<!ELEMENT publisher (#PCDATA)>
+<!ELEMENT pagelength (#PCDATA)>
+<!ELEMENT series (#PCDATA)>
+<!ELEMENT seriesno (#PCDATA)>
