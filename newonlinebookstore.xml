@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- file name: newonlinebookstore.xml -->
+
+    <newonlinebookstore 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="newonlinebookstore.xsd">
+        
+        <book category="FANTASY">
+            <title lang="en">Once Upon A Broken Heart</title>
+            <author>Stephanie Garber</author>
+            <year>2021</year>
+            <price>16.25</price>
+            <format>Hardcover</format>
+            <publisher>Flatiron Books</publisher>
+            <pagelength>416 pages</pagelength>
+            <series>Yes</series>
+            <seriesno>Book 1</seriesno>
+        </book>
+        
+        <book category="ROMANCE">
+            <title lang="en">The Duke and I</title>
+            <author>Julia Quinn</author>
+            <year>2006</year>
+            <price>13.62</price>
+            <format>Paperback</format>
+            <publisher>Avon Books</publisher>
+            <pagelength>384 pages</pagelength>
+            <series>Yes</series>
+            <seriesno>Book 1</seriesno>
+        </book>
+        
+        <book category="THRILLER">
+            <title lang="en">The Other Black Girl</title>
+            <author>Zakiya Dalila Harris</author>
+            <year>2021</year>
+            <price>14.82</price>
+            <format>Hardcover</format>
+            <publisher>Atria Books</publisher>
+            <pagelength>368 pages</pagelength>
+            <series>No</series>
+            <seriesno>N/A</seriesno>
+        </book>
+        
+        <book category="MEMOIR">
+            <title lang="en">Finding Me: A Memoir</title>
+            <author>Viola Davis</author>
+            <year>2022</year>
+            <price>16.34</price>
+            <format>Hardcover</format>
+            <publisher>HarperOne</publisher>
+            <pagelength>304 pages</pagelength>
+            <series>No</series>
+            <seriesno>N/A</seriesno>
+        </book>
+        
+    </newonlinebookstore>
